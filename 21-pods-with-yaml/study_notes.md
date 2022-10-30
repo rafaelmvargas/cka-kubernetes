@@ -11,3 +11,7 @@
 ### -f option denotes filename
 
 `kubectl -f pod-definition.yml`
+
+## Delete kubernetes objec
+
+`kubectl delete -f pod-definition.yml`
