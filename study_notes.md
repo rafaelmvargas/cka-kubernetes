@@ -18,10 +18,8 @@
 
 `kubectl -f pod-definition.yml`
 
-### Delete kubernetes objec
+### Delete kubernetes object
 
-## `kubectl delete -f pod-definition.yml`
+`kubectl delete -f pod-definition.yml`
 
 ---
-
-## Hello
