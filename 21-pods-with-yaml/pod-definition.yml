@@ -9,3 +9,10 @@ spec:
   containers:
     - name: nginx-controller
       image: nginx
+      resources:
+        requests:
+          cpu: '500m'
+          memory: '128mi'
+        limits:
+          cpu: none
+          memory: '128mi'
