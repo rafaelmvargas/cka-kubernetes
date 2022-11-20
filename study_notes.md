@@ -23,3 +23,7 @@
 `kubectl delete -f pod-definition.yml`
 
 ---
+
+#### Create a new pod with the nginx image
+
+`kubectl run nginx --image=nginx`
