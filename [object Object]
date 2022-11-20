@@ -1,0 +1,32 @@
+apiVersion: v1
+clusters:
+- cluster:
+    certificate-authority: /home/rafae/.minikube/ca.crt
+    extensions:
+    - extension:
+        last-update: Sun, 20 Nov 2022 15:29:53 EST
+        provider: minikube.sigs.k8s.io
+        version: v1.28.0
+      name: cluster_info
+    server: https://172.30.87.228:8443
+  name: minikube
+contexts:
+- context:
+    cluster: minikube
+    extensions:
+    - extension:
+        last-update: Sun, 20 Nov 2022 15:29:53 EST
+        provider: minikube.sigs.k8s.io
+        version: v1.28.0
+      name: context_info
+    namespace: default
+    user: minikube
+  name: minikube
+current-context: minikube
+kind: Config
+preferences: {}
+users:
+- name: minikube
+  user:
+    client-certificate: /home/rafae/.minikube/profiles/minikube/client.crt
+    client-key: /home/rafae/.minikube/profiles/minikube/client.key
